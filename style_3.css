@@ -1,0 +1,31 @@
+/* GENERALITE */
+
+body { /* défini le body (la page) */
+  background-color:#0C3A6D ; /* le fond de la page est blanc */
+  color:black} /* les textes sont noirs */
+
+.menu1 { /* boite qui contient le menu (les onglets) */
+  border-bottom:solid 2px black ; /* crée le trait noir en-dessous des onglets */
+  padding-top:12px ; /* marge intérieure haute */
+  padding-bottom:7px} /* marge intérieure basse */
+
+.onglet { /* style des onglets inactifs */
+  border:solid 1px black ; /* encadrement */
+  margin:5px 5px 0px 5px ; /* marge extérieure */
+  padding:7px 3px 7px 3px} /* marge intérieure */
+
+a.onglet { /* style des liens se trouvant dans un onglet inactif */
+  background-color:#E7E4E4 ; /* le fond de l'onglet est gris */
+  text-decoration:none} /* les liens ne sont pas soulignés */
+
+img{
+    padding: 4px;
+	border: 1px solid #999999;
+	background-color:#FFF;	
+}
+
+.coinsarrondis {
+-moz-border-radius:20px;
+-webkit-border-radius:20px;
+border-radius:20px;
+}  
